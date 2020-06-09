@@ -1,0 +1,28 @@
+{
+  "name": "@olee92/minilyrics-proxy",
+  "version": "1.0.0",
+  "description": "Minilyrics proxy server",
+  "main": "index.ts",
+  "keywords": [
+    "minilyrics",
+    "proxy"
+  ],
+  "author": "Björn Zeutzheim (https://github.com/olee)",
+  "homepage": "https://github.com/olee/minilyrics-proxy#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olee/minilyrics-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olee/minilyrics-proxy/issues"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
