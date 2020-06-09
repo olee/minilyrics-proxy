@@ -49,7 +49,7 @@ export default function queryMiniLyrics(title: string, artist: string, cb: (erro
     });
 
     const query = `<?xml version='1.0' encoding='utf-8' ?>` +
-        `<searchV1 filetype="lyrics" ClientCharEncoding="utf-8" artist="${artist || ''}" title="${title || ''}" OnlyMatched="1" client="MiniLyrics" RequestPage="0" />`;
+        `<searchV1 filetype="lyrics" ClientCharEncoding="utf-8" artist="${artist || ''}" title="${title || ''}" client="MiniLyrics" />`;
     const reqBuffer = Buffer.from(encryptString(query));
 
     req.write(reqBuffer);
